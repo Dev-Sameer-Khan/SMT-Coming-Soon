@@ -38,7 +38,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    const targetDate = new Date('2026-03-01T00:00:00').getTime();
+    const targetDate = new Date('2026-01-26T00:00:00').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
