@@ -38,7 +38,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    const targetDate = new Date('2026-01-26T00:00:00').getTime();
+    const targetDate = new Date('2026-03-01T00:00:00').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -69,9 +69,9 @@ export default function App() {
       <div className="max-w-4xl w-full text-center relative z-10">
         {/* Logo/Brand Name */}
         <div className="mb-8 animate-fade-in">
-          <h1 className="text-6xl md:text-8xl font-bold text-blue-500 mb-4">
-            SMT
-          </h1>
+        <div className='flex items-center justify-center -mb-6'>
+        <img src="/logo2.png"/>
+        </div>
           <h2 className="text-3xl md:text-5xl font-light text-[#0A0A0A] mb-2">
             Sumou Al Abdaa
           </h2>
